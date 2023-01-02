@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.logo picture img {
+    height: 3rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.main-cont picture img {
+    padding-top: 4rem;
+    height: 8rem;
+}

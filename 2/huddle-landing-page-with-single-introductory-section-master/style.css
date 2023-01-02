@@ -1,0 +1,77 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.logo picture img {
+    height: 3rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.main-cont {
+    display: flex;
+}
+
+.main-cont picture img {
+    padding-top: 4rem;
+    padding-left: 3rem;
+    height: 32rem;
+}
+
+.main-cont .texts {
+    color: white;
+    padding-right: 10rem;
+    padding-top: 4.5rem;
+    padding-left: 2rem;
+}
+
+.main-cont .texts div h1 {
+    font-size: 3.5rem;
+}
+
+.main-cont .texts div p {
+    padding-top: 0;
+    font-size: 1.4rem;
+    
+}
+
+.main-cont .texts button {
+    height: 3.5rem;
+    width: 12rem;
+    color: hsl(257, 40%, 49%);
+    font-size: large;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0.5rem 0.25rem 0.25rem purple;
+}
+
+.main-cont .texts button:hover {
+   background-color: hsl(300, 69%, 71%);
+}
+
+.social-nets {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-nets picture img {
+    height: 2rem;
+    padding-top: 6rem;
+    padding-right: 4rem;
+}
+
+
